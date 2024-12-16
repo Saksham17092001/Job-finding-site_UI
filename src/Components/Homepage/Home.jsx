@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { deleteJob, getJob } from "../../services/index";
 import { useNavigate } from "react-router-dom";
+import styles from "./Home.module.css"
 
 const debouncingTime = 1000;
 const debounce = (func, wait) => {
